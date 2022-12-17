@@ -5,7 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from Config.config import TestData
 
 
-# Crea la instancia de la sesion del browser y lo tiramos abajo
+# Create the instance of the browser session and drop it
 @pytest.fixture(scope="class")
 def init_driver():
     if TestData.browser == "Chrome":

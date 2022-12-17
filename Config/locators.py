@@ -1,5 +1,5 @@
 class Locators:
-    """Almacena los locators de los elementos web que se van a usar"""
+    """Stores the locators of the web elements to be used"""
 
     # Sample App
     sample_app_link = '//a[contains(@href,"/sampleapp")]'
@@ -23,7 +23,7 @@ class Locators:
     dynamic_id_link = '//a[contains(@href,"/dynamicid")]'
     dynamic_id_button = '//button[@class="btn btn-primary"]'
 
-    # Class Attr
+    # Class Attribute
     class_attr_link = '//a[contains(@href,"/classattr")]'
     class_attr_button = '//*[contains(@class," btn-primary btn-test")]'
 
@@ -41,3 +41,8 @@ class Locators:
     # Scroll Bars
     scrollbars_link = '//a[contains(@href,"/scrollbars")]'
     scrollbars_button = '//button[@id="hidingButton"]'
+
+    # Non-Breaking Space
+    nbsp_link = '//a[contains(@href,"/nbsp")]'
+    nbsp_button = (
+        '//button[contains(text(), "My")][contains(text(), "Button")]')

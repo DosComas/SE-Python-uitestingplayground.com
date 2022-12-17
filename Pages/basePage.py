@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 
 
 class BasePage:
-    """Parent class, funciones que heredan las demas paginas"""
+    """Parent class containing functions that the other pages inherit"""
 
     # Initializer
     def __init__(self, driver):

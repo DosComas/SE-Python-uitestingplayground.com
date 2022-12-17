@@ -1,5 +1,5 @@
 class TestData:
-    """En esta clase se almacenan data para los tests (url, user, pass)"""
+    """This class stores data for the tests"""
 
     browser = 'Chrome'
     base_url = 'http://uitestingplayground.com'
