@@ -1,5 +1,7 @@
-from selenium.webdriver.common.alert import Alert
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.alert import Alert
+from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import ElementClickInterceptedException
 
 
 class BasePage:
@@ -40,3 +42,21 @@ class BasePage:
 
     def alert_accept(self):
         Alert(self.driver).accept()
+
+    def check_existence(self, locator):
+        try:
+            self.find_element_xpath(locator)
+            return True
+        except NoSuchElementException:
+            return False
+
+    def check_clickable(self, locator):
+        try:
+            self.do_click(locator)
+            return True
+        except ElementClickInterceptedException:
+            return False
+
+    def check_visibility(self, locator):
+        element = self.find_element_xpath(locator)
+        return element.is_displayed()

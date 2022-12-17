@@ -51,7 +51,6 @@ class Locators:
     overlapped_name = '//input[@id="name"]'
 
     # Visibility
-
     visibility_link = '//a[contains(@href,"/visibility")]'
     visibility_hide_btn = '//button[@id="hideButton"]'
     visibility_removed_btn = '//button[@id="removedButton"]'
