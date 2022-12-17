@@ -6,6 +6,6 @@ class TestCase():
     """Tests for the Progress Bar page"""
 
     def test_progress_bar(self, init_driver):
-        self.progressBar = ProgressBar(init_driver)
-        result = self.progressBar.go_and_get_result()
+        self.progressbar = ProgressBar(init_driver)
+        result = self.progressbar.go_and_get_result()
         assert result == TestData.progress_bar_result

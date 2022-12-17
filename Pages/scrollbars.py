@@ -4,7 +4,7 @@ from Config.locators import Locators
 
 
 class Scrollbars(BasePage):
-    """Methods for interacting with the Scroll Bars page"""
+    """Methods for interacting with the Scrollbars page"""
 
     def __init__(self, driver):
         super().__init__(driver)
