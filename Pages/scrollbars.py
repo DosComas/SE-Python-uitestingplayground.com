@@ -1,4 +1,4 @@
-from Pages.base_page import BasePage
+from Pages.basepage import BasePage
 from Config.config import TestData
 from Config.locators import Locators
 
