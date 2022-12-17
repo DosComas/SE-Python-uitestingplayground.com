@@ -45,3 +45,7 @@ class Locators:
     # Non-Breaking Space
     nbsp_link = '//a[contains(@href,"/nbsp")]'
     nbsp_button = '//button[text()="My\u00A0Button"]'
+
+    # Overlapped Element
+    overlapped_link = '//a[contains(@href,"/overlapped")]'
+    overlapped_name = '//input[@id="name"]'

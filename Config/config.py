@@ -24,3 +24,6 @@ class TestData:
 
     # Progress Bar
     progress_bar_result = '0'
+
+    # Overlapped Element
+    overlapped_name = 'Roberto'
