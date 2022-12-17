@@ -4,7 +4,7 @@ from Config.locators import Locators
 
 
 class TextInput(BasePage):
-    """Methods for specifically interacting with the Text Input page"""
+    """Methods for interacting with the Text Input page"""
 
     def __init__(self, driver):
         super().__init__(driver)

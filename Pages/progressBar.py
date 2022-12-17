@@ -5,7 +5,7 @@ from Config.locators import Locators
 
 
 class ProgressBar(BasePage):
-    """Methods for specifically interacting with the Progress Bar page"""
+    """Methods for interacting with the Progress Bar page"""
 
     def __init__(self, driver):
         super().__init__(driver)

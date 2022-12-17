@@ -44,5 +44,4 @@ class Locators:
 
     # Non-Breaking Space
     nbsp_link = '//a[contains(@href,"/nbsp")]'
-    nbsp_button = (
-        '//button[contains(text(), "My")][contains(text(), "Button")]')
+    nbsp_button = '//button[text()="My\u00A0Button"]'

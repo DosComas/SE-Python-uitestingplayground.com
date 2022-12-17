@@ -4,7 +4,7 @@ from Config.locators import Locators
 
 
 class DynamicID(BasePage):
-    """Methods for specifically interacting with the Dynamic ID page"""
+    """Methods for interacting with the Dynamic ID page"""
 
     def __init__(self, driver):
         super().__init__(driver)

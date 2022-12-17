@@ -4,7 +4,7 @@ from Config.locators import Locators
 
 
 class DynamicTable(BasePage):
-    """Methods for specifically interacting with the Dynamic Table page"""
+    """Methods for interacting with the Dynamic Table page"""
 
     def __init__(self, driver):
         super().__init__(driver)

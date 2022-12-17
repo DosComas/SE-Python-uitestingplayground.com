@@ -4,7 +4,7 @@ from Config.locators import Locators
 
 
 class SampleApp(BasePage):
-    """Methods for specifically interacting with the Sample App page"""
+    """Methods for interacting with the Sample App page"""
 
     def __init__(self, driver):
         super().__init__(driver)

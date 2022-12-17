@@ -4,7 +4,7 @@ from Config.locators import Locators
 
 
 class ClassAttr(BasePage):
-    """Methods for specifically interacting with the Class Attribute page"""
+    """Methods for interacting with the Class Attribute page"""
 
     def __init__(self, driver):
         super().__init__(driver)
