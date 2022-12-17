@@ -1,5 +1,5 @@
 import pytest
-from Pages.textInput import TextInput
+from Pages.textinput import TextInput
 from Config.config import TestData
 
 

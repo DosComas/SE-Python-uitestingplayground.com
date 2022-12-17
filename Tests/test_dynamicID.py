@@ -1,4 +1,4 @@
-from Pages.dynamicID import DynamicID
+from Pages.dynamicid import DynamicID
 
 
 class TestCase():

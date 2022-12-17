@@ -1,4 +1,4 @@
-from Pages.progressBar import ProgressBar
+from Pages.progressbar import ProgressBar
 from Config.config import TestData
 
 

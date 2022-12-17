@@ -1,5 +1,5 @@
 import re
-from Pages.basePage import BasePage
+from Pages.base_page import BasePage
 from Config.config import TestData
 from Config.locators import Locators
 

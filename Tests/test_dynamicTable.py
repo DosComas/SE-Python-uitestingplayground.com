@@ -1,4 +1,4 @@
-from Pages.dynamicTable import DynamicTable
+from Pages.dynamictable import DynamicTable
 
 
 class TestCase():

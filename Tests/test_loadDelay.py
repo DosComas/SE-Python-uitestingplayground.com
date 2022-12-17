@@ -1,4 +1,4 @@
-from Pages.loadDelay import LoadDelay
+from Pages.loaddelay import LoadDelay
 
 
 class TestCase():

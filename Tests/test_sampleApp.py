@@ -1,5 +1,5 @@
 import pytest
-from Pages.sampleApp import SampleApp
+from Pages.sampleapp import SampleApp
 from Config.config import TestData
 
 

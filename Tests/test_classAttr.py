@@ -1,4 +1,4 @@
-from Pages.classAttr import ClassAttr
+from Pages.classattr import ClassAttr
 
 
 class TestCase():
