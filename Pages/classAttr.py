@@ -12,6 +12,6 @@ class ClassAttr(BasePage):
 
     def go_click_blue_btn_and_ok(self):
         self.do_click(Locators.class_attr_link)
-        self.do_click(Locators.class_attr_button)
+        self.do_click(Locators.class_attr_btn)
         self.alert_accept()
         return True

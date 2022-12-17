@@ -12,5 +12,5 @@ class NBSP(BasePage):
 
     def go_and_click_btn(self):
         self.do_click(Locators.nbsp_link)
-        self.do_click(Locators.nbsp_button)
+        self.do_click(Locators.nbsp_btn)
         return True

@@ -11,7 +11,7 @@ class Locators:
     # Text Input
     text_input_link = '//a[contains(@href,"/textinput")]'
     text_input_name = '//input[@id="newButtonName"]'
-    text_input_button = '//button[@id="updatingButton"]'
+    text_input_btn = '//button[@id="updatingButton"]'
 
     # Dynamic Table
     dynamic_table_link = '//a[contains(@href,"/dynamictable")]'
@@ -21,15 +21,15 @@ class Locators:
 
     # Dynamic ID
     dynamic_id_link = '//a[contains(@href,"/dynamicid")]'
-    dynamic_id_button = '//button[@class="btn btn-primary"]'
+    dynamic_id_btn = '//button[@class="btn btn-primary"]'
 
     # Class Attribute
     class_attr_link = '//a[contains(@href,"/classattr")]'
-    class_attr_button = '//*[contains(@class," btn-primary btn-test")]'
+    class_attr_btn = '//*[contains(@class," btn-primary btn-test")]'
 
     # Load Delay
     load_delay_link = '//a[contains(@href,"/loaddelay")]'
-    load_delay_button = '//button[@class="btn btn-primary"]'
+    load_delay_btn = '//button[@class="btn btn-primary"]'
 
     # Progress Bar
     progress_bar_link = '//a[contains(@href,"/progressbar")]'
@@ -40,12 +40,24 @@ class Locators:
 
     # Scroll Bars
     scrollbars_link = '//a[contains(@href,"/scrollbars")]'
-    scrollbars_button = '//button[@id="hidingButton"]'
+    scrollbars_btn = '//button[@id="hidingButton"]'
 
     # Non-Breaking Space
     nbsp_link = '//a[contains(@href,"/nbsp")]'
-    nbsp_button = '//button[text()="My\u00A0Button"]'
+    nbsp_btn = '//button[text()="My\u00A0Button"]'
 
     # Overlapped Element
     overlapped_link = '//a[contains(@href,"/overlapped")]'
     overlapped_name = '//input[@id="name"]'
+
+    # Visibility
+
+    visibility_link = '//a[contains(@href,"/visibility")]'
+    visibility_hide_btn = '//button[@id="hideButton"]'
+    visibility_removed_btn = '//button[@id="removedButton"]'
+    visibility_zero_width_btn = '//button[@id="zeroWidthButton"]'
+    visibility_overlapped_btn = '//button[@id="overlappedButton"]'
+    visibility_opacity_0_btn = '//button[@id="transparentButton"]'
+    visibility_hidden_btn = '//button[@id="invisibleButton"]'
+    visibility_display_none_btn = '//button[@id="notdisplayedButton"]'
+    visibility_offscreen_btn = '//button[@id="offscreenButton"]'

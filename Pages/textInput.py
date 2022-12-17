@@ -13,5 +13,5 @@ class TextInput(BasePage):
     def go_and_do_input(self, input_field):
         self.do_click(Locators.text_input_link)
         self.do_send_keys(Locators.text_input_name, input_field)
-        self.do_click(Locators.text_input_button)
-        return self.get_element_text(Locators.text_input_button)
+        self.do_click(Locators.text_input_btn)
+        return self.get_element_text(Locators.text_input_btn)

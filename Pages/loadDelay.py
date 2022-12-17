@@ -12,5 +12,5 @@ class LoadDelay(BasePage):
 
     def go_and_click_btn(self):
         self.do_click(Locators.load_delay_link)
-        self.do_click(Locators.load_delay_button)
+        self.do_click(Locators.load_delay_btn)
         return True

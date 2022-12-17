@@ -12,5 +12,5 @@ class DynamicID(BasePage):
 
     def go_and_click_btn(self):
         self.do_click(Locators.dynamic_id_link)
-        self.do_click(Locators.dynamic_id_button)
+        self.do_click(Locators.dynamic_id_btn)
         return True

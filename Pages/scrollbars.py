@@ -12,6 +12,6 @@ class Scrollbars(BasePage):
 
     def go_locate_and_click_button(self):
         self.do_click(Locators.scrollbars_link)
-        button_location = self.scroll_into_view(Locators.scrollbars_button)
-        self.do_click(Locators.scrollbars_button)
+        button_location = self.scroll_into_view(Locators.scrollbars_btn)
+        self.do_click(Locators.scrollbars_btn)
         return button_location
