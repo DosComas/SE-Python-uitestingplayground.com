@@ -1,6 +1,5 @@
-Congig/__pycache__
-Pages/__pycache__
-Tests/__pycache__
+__pycache__
+**/__pycache__
 wip.py
-page.py
-dynamictable.py
+page.png
+wip_dynamictable.py
