@@ -30,3 +30,6 @@ class TestData:
 
     # Client Side Delay
     clientdelay_data = 'Data calculated on the client side.'
+
+    # AJAX Data
+    ajax_data = 'Data loaded with AJAX get request.'

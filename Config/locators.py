@@ -66,3 +66,8 @@ class Locators:
     clientdelay_btn = '//button[@id="ajaxButton"]'
     clientdelay_spinner = '//i[@id="spinner"]'
     clientdelay_text = '//p[@class="bg-success"]'
+
+    # AJAX Data
+    ajax_link = '//a[contains(@href,"/ajax")]'
+    ajax_btn = '//button[@id="ajaxButton"]'
+    ajax_text = '//p[@class="bg-success"]'

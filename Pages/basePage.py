@@ -63,6 +63,10 @@ class BasePage:
         element = self.find_element_xpath(locator)
         return element.is_displayed()
 
-    def wait_30s_for_element_to_disappear(self, locator):
-        WebDriverWait(self.driver, 30).until(
+    def wait_20s_for_element_to_disappear(self, locator):
+        WebDriverWait(self.driver, 20).until(
             EC.invisibility_of_element_located((By.XPATH, locator)))
+
+    def wait_20s_for_presence_of_element(self, locator):
+        return WebDriverWait(self.driver, 20).until(
+            EC.presence_of_element_located((By.XPATH, locator)))
