@@ -38,7 +38,7 @@ class Locators:
     progress_bar_bar = '//div[@id="progressBar"]'
     progress_bar_result = '//p[@id="result"]'
 
-    # Scroll Bars
+    # Scrollbars
     scrollbars_link = '//a[contains(@href,"/scrollbars")]'
     scrollbars_btn = '//button[@id="hidingButton"]'
 
@@ -60,3 +60,9 @@ class Locators:
     visibility_hidden_btn = '//button[@id="invisibleButton"]'
     visibility_display_none_btn = '//button[@id="notdisplayedButton"]'
     visibility_offscreen_btn = '//button[@id="offscreenButton"]'
+
+    # Client Side Delay
+    clientdelay_link = '//a[contains(@href,"/clientdelay")]'
+    clientdelay_btn = '//button[@id="ajaxButton"]'
+    clientdelay_spinner = '//i[@id="spinner"]'
+    clientdelay_text = '//p[@class="bg-success"]'

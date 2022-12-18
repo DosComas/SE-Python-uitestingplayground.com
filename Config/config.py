@@ -27,3 +27,6 @@ class TestData:
 
     # Overlapped Element
     overlapped_name = 'Roberto'
+
+    # Client Side Delay
+    clientdelay_data = 'Data calculated on the client side.'

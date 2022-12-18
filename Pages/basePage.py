@@ -2,6 +2,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.alert import Alert
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import ElementClickInterceptedException
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 class BasePage:
@@ -60,3 +62,7 @@ class BasePage:
     def check_visibility(self, locator):
         element = self.find_element_xpath(locator)
         return element.is_displayed()
+
+    def wait_30s_for_element_to_disappear(self, locator):
+        WebDriverWait(self.driver, 30).until(
+            EC.invisibility_of_element_located((By.XPATH, locator)))
