@@ -13,5 +13,5 @@ class ClientSideDelay(BasePage):
     def go_click_and_get_text(self):
         self.do_click(Locators.clientdelay_link)
         self.do_click(Locators.clientdelay_btn)
-        self.wait_30s_for_element_to_disappear(Locators.clientdelay_spinner)
+        self.wait_20s_for_element_to_disappear(Locators.clientdelay_spinner)
         return self.get_element_text(Locators.clientdelay_text)
