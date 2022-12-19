@@ -71,3 +71,8 @@ class Locators:
     ajax_link = '//a[contains(@href,"/ajax")]'
     ajax_btn = '//button[@id="ajaxButton"]'
     ajax_text = '//p[@class="bg-success"]'
+
+    # Mouse Over
+    mouseover_link = '//a[contains(@href,"/mouseover")]'
+    mouseover_click_me = '//a[@class="text-primary"]'
+    mouseover_count = '//span[@id="clickCount"]'

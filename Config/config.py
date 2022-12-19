@@ -33,3 +33,6 @@ class TestData:
 
     # AJAX Data
     ajax_data = 'Data loaded with AJAX get request.'
+
+    # Mouse Over
+    mouseover_data = [(0, '0'), (1, '1'), (2, '2'), (34, '34'), (101, '101')]
