@@ -70,3 +70,8 @@ class BasePage:
     def wait_20s_for_presence_of_element(self, locator):
         return WebDriverWait(self.driver, 20).until(
             EC.presence_of_element_located((By.XPATH, locator)))
+
+    def find_element_shadow_root(self, locator):
+        return self.driver.execute_script(
+            """return document.querySelector('guid-generator').
+                shadowRoot.querySelector("{0}")""".format(locator))

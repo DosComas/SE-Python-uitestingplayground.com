@@ -3,6 +3,7 @@ class TestData:
 
     browser = 'Chrome'
     base_url = 'http://uitestingplayground.com'
+    base_url_ssl = 'https://uitestingplayground.com'
 
     # Sample App
     sample_app_login_data = [

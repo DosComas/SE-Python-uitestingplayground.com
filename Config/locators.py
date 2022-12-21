@@ -76,3 +76,9 @@ class Locators:
     mouseover_link = '//a[contains(@href,"/mouseover")]'
     mouseover_click_me = '//a[@class="text-primary"]'
     mouseover_count = '//span[@id="clickCount"]'
+
+    # Shadow DOM
+    shadowdom_link = '//a[contains(@href,"/shadowdom")]'
+    shadowdom_script_gen_btn = "button[id='buttonGenerate']"
+    shadowdom_script_copy_btn = "button[id='buttonCopy']"
+    shadowdom_script_input_field = "input[id='editField']"
