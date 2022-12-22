@@ -6,4 +6,5 @@ class TestCase():
 
     def test_load_delay(self, init_driver):
         self.loaddelay = LoadDelay(init_driver)
-        assert self.loaddelay.go_and_click_btn() is True
+        loaded = self.loaddelay.go_and_click_btn()
+        assert loaded is True

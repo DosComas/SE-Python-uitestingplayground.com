@@ -4,7 +4,7 @@ from Config.locators import Locators
 
 
 class LoadDelay(BasePage):
-    """Methods for interacting with the Sample App page"""
+    """Methods for interacting with the Load Delay page"""
 
     def __init__(self, driver):
         super().__init__(driver)
