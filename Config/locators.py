@@ -82,3 +82,7 @@ class Locators:
     shadowdom_script_gen_btn = "button[id='buttonGenerate']"
     shadowdom_script_copy_btn = "button[id='buttonCopy']"
     shadowdom_script_input_field = "input[id='editField']"
+
+    # Verify Text
+    verifytext_link = '//a[contains(@href,"/verifytext")]'
+    verifytext_text = '//span[starts-with(normalize-space(),"Welcome ")]'

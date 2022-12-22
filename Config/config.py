@@ -37,3 +37,6 @@ class TestData:
 
     # Mouse Over
     mouseover_data = [(0, '0'), (1, '1'), (2, '2'), (34, '34'), (101, '101')]
+
+    # Verify Text
+    verifytext_expected = 'Welcome UserName!'
