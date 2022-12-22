@@ -90,3 +90,8 @@ class Locators:
     # Click
     click_link = '//a[contains(@href,"/click")]'
     click_btn = '//button[@id="badButton"]'
+
+    # Hidden Layers
+    hiddenlayers_link = '//a[contains(@href,"/hiddenlayers")]'
+    hiddenlayers_green_btn = '//button[@id="greenButton"]'
+    hiddenlayers_blue_btn = '//button[@id="blueButton"]'
