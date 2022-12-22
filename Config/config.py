@@ -40,3 +40,7 @@ class TestData:
 
     # Verify Text
     verifytext_expected = 'Welcome UserName!'
+
+    # Click
+    click_class_before_expected = 'btn btn-primary'
+    click_class_after_expected = 'btn btn-success'

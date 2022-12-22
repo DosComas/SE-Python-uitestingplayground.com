@@ -86,3 +86,7 @@ class Locators:
     # Verify Text
     verifytext_link = '//a[contains(@href,"/verifytext")]'
     verifytext_text = '//span[starts-with(normalize-space(),"Welcome ")]'
+
+    # Click
+    click_link = '//a[contains(@href,"/click")]'
+    click_btn = '//button[@id="badButton"]'
