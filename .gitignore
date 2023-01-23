@@ -3,3 +3,4 @@ __pycache__
 .pytest_cache
 wip.py
 todo.png
+chromedriver.exe
