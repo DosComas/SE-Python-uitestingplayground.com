@@ -75,3 +75,7 @@ class BasePage:
         return self.driver.execute_script(
             """return document.querySelector('guid-generator').
                 shadowRoot.querySelector("{0}")""".format(locator))
+
+    def wait_for_value(self, locator):
+        wait = WebDriverWait(self.driver, 30)
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, locator)))

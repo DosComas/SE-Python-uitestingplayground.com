@@ -35,7 +35,7 @@ class Locators:
     progress_bar_link = '//a[contains(@href,"/progressbar")]'
     progress_bar_start = '//button[@id="startButton"]'
     progress_bar_stop = '//button[@id="stopButton"]'
-    progress_bar_bar = '//div[@id="progressBar"]'
+    progress_bar_valuenow = '#progressBar[aria-valuenow="75"]'
     progress_bar_result = '//p[@id="result"]'
 
     # Scrollbars
