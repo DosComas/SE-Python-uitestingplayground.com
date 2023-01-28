@@ -47,7 +47,7 @@ sample_app_login_data = [
 
 Finally, for 'shadowdom' I had to use the HTTP protocol and make Selenium ignore ssl and certificate errors to test the page because using the protocol HTTPS disabled the copy button.
 
-Code of the function that instantiates and drops the browser session for the test:
+Code of the function that instantiates and drops the browser session for the 'shadowdom' test:
 ```
 def init_driver_ignore():
     if TestData.browser == "Chrome":
@@ -65,6 +65,9 @@ def init_driver_ignore():
 ### Requiriments:
 
 chromedriver.exe added to the system PATH
+
 pytest==7.2.0
+
 selenium==4.6.1
+
 webdriver-manager==3.8.5
