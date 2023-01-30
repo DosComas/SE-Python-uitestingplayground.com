@@ -1,7 +1,7 @@
 # SE-Python-uitestingplayground.com
 This is a repository made to practice Selenium with python by doing the exercises from the UI Test Automation Playground website.
 
-The test suit is structured using the Page Object Model (POM) model. In Pages\basepage.py are the functions that the other pages will inherit to interact with the web pages and in Test\conftest.py is handle the session of the web driver. 
+The test suit is structured using the Page Object Model (POM). In Pages\basepage.py are the functions that the other pages will inherit to interact with the web pages and in Test\conftest.py is handle the session of the web driver. 
 
 Some of the cases were straightforward to implement, like those for the 'dynamicid', 'click', 'loaddelay', 'clientdelay', and 'ajax'.
 
