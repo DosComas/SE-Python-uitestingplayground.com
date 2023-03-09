@@ -1,7 +1,7 @@
 class TestData:
     """This class stores data for the tests"""
 
-    browser = 'Chrome'
+    browser = ['Chrome', 'Firefox', 'Edge']
     base_url = 'http://uitestingplayground.com'
     base_url_ssl = 'https://uitestingplayground.com'
 
@@ -24,7 +24,7 @@ class TestData:
     ]
 
     # Progress Bar
-    progress_bar_result = '0'
+    progress_bar_result = ['0', '1', '2', '3', '4', '5']
 
     # Overlapped Element
     overlapped_name = 'Roberto'

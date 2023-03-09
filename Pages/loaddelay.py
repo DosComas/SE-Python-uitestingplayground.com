@@ -12,5 +12,6 @@ class LoadDelay(BasePage):
 
     def go_and_click_btn(self):
         self.do_click(Locators.load_delay_link)
-        self.do_click(Locators.load_delay_btn)
+        btn = self.wait_20s_for_presence_of_element(Locators.load_delay_btn)
+        btn.click()
         return True

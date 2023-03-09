@@ -64,8 +64,6 @@ def init_driver_ignore():
 
 ### Requiriments:
 
-chromedriver.exe added to the system PATH
-
 pytest==7.2.0
 
 selenium==4.6.1
